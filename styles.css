@@ -188,19 +188,6 @@ top: 15%;
     left: 10%;
     top: 70%;
 }
-/*
-.btn-enciptar,
-.btn-desencriptar{
-
-    width: 48%;
-    border-radius: 16px;
-}*/
-.btn-enciptar.btn-enciptar:hover,
-.btn-desencriptar:hover{
-    margin: 0.3%;
-    width: 47.5%;
-    padding: 1.8%;
-}
 .encriptado{
     width: 80%;
     height: 15%;
