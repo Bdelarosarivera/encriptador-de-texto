@@ -2,33 +2,25 @@
     margin: 0;
     padding: 0;
 }
-
 .container{
     position: relative;
     width: 100vw;
     height: 100vh;
     background: #c8d2f7;
 }
-.encabezado p{
-    font-size: 20px;
-    color:#0a3871;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 8p;
+
+.logo{
     position: absolute;
-    width: 80%;
+    font-size: 50px;
+    color: #011c3d;
+    left: 8%;
+    top: 2%;
+}
+.encabezado {
+    color:#0a3871;
+    position: absolute;
     left: 17%;
     top: 5%;
-}
-
-.encabezado img{
-    position: absolute;
-    will-change: 6%;
-    height: 8%;
-    top: 5%;
-    left: 10%;
 }
 .texto{
     position: absolute;
