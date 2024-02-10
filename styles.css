@@ -7,14 +7,34 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: #f3f5fc;
+    background: #c8d2f7;
+}
+.encabezado p{
+    font-size: 20px;
+    color:#0a3871;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8p;
+    position: absolute;
+    width: 80%;
+    left: 17%;
+    top: 5%;
 }
 
+.encabezado img{
+    position: absolute;
+    will-change: 6%;
+    height: 8%;
+    top: 5%;
+    left: 10%;
+}
 .texto{
     position: absolute;
     width: 42%;
-    height: 60%;
-    left: 12%;
+    height: 65%;
+    left: 10%;
     top: 15%;
     border: none;
     font-family: "Inter";
@@ -22,7 +42,7 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    background-color: #f3f5fc;
+    background-color: #c8d2f7;
 }
 .texto::placeholder{
     color:#0a3871;
@@ -40,7 +60,7 @@ padding: 0px;
 gap: 8p;
 position: absolute;
 width: 80%;
-left: 12%;
+left: 10%;
 top: 80%;
 }
 .terminos p{
@@ -61,7 +81,7 @@ align-items: flex-start;
 padding: 1% 0;
 position: absolute;
 width: 80%;
-left: 12%;
+left: 10%;
 top: 82%;
 }
 .btn-encriptar{
@@ -80,7 +100,7 @@ text-align: center;
 color: #fff;
 }
 .btn-encriptar, .btn-desencriptar {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .btn-desencriptar{
 box-sizing: border-box;
@@ -89,7 +109,7 @@ flex-direction: row;
 align-items: flex-start;
 justify-content: center;
 padding: 2%;
-gap: 8%;
+gap: 10%;
 width: 25%;
 background: #d8dfe8;
 border: 1px solid #0a3871;
@@ -156,7 +176,7 @@ border-radius: 32px;
 .encriptado img{
 position: absolute;
 will-change: 80%;
-height: 50%;
+height: 45%;
 top: 15%;
 }
 
@@ -165,34 +185,41 @@ top: 15%;
 .container{
     display: flex;
     flex-direction: row;
+    
+}
+.encabezado p{
+    left: 35%;
 }
 .encriptar{
     width: 100%;
+    
 }
 .texto{
     width: 80%;
-    height: 60%;
+    height: 43%;
     left: 10%;
-    top: 5%;
+    top: 15%;
 }
 .terminos{
     width: 60%;
     left: 10%;
-    top: 67%;
+    top: 58%;
 }
 .terminos{
     font-size: 16px;
 }
 .botones{
-    width: 80%;
+    width: 130%;
+    height: 10%;
     left: 10%;
-    top: 70%;
+    top: 60%;
 }
 .encriptado{
-    width: 80%;
-    height: 15%;
+    width: 75%;
+    height: 20%;
     left: 10%;
-    top: 80%;
+    top: 68%;
+    padding: 1%;
 }
 .mensaje-encriptado{
     width: 100%;
