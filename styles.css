@@ -188,14 +188,14 @@ top: 15%;
 }
 .texto{
     width: 80%;
-    height: 43%;
+    height: 30%;
     left: 10%;
     top: 15%;
 }
 .terminos{
     width: 60%;
     left: 10%;
-    top: 58%;
+    top: 45%;
 }
 .terminos{
     font-size: 16px;
@@ -204,14 +204,14 @@ top: 15%;
     width: 130%;
     height: 10%;
     left: 10%;
-    top: 60%;
+    top: 48%;
 }
 .encriptado{
-    width: 75%;
+    width: 65%;
     height: 20%;
     left: 10%;
-    top: 68%;
-    padding: 1%;
+    top: 60%;
+    padding: 5%;
 }
 .mensaje-encriptado{
     width: 100%;
